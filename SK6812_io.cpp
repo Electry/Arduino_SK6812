@@ -140,4 +140,6 @@ w_nop16
   }
   
   SREG=sreg_prev;
+
+  sei();
 }
