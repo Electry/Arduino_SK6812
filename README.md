@@ -17,7 +17,7 @@ RGBW color1 = {0, 0, 255, 50}; // 255 blue, 50 white
 void setup() {
   LED.set_output(4); // Digital Pin 4
   
-  LED.set_rgbw(0, color); // Set first LED to color1
+  LED.set_rgbw(0, color1); // Set first LED to color1
 }
 
 void loop() {
